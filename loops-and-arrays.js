@@ -8,7 +8,7 @@ const names = ["Henk", "Piet", "Fred", "Joop"];
 
 console.log(names);
 
-for(let i = 0; i < names.length; i++){
+for (let i = 0; i < names.length; i++) {
     names[i] += "je";
 }
 
@@ -21,8 +21,6 @@ console.log(names);
 // console.log(names) geeft: ["Henkje", "Pietje", "Fredje", "Joopje"]
 
 
-
-
 // ==========================================
 // Opdracht 2
 // Schrijf een script dat ieder EVEN getal in onderstaande array met 2 vermenigvuldigd, en ieder ONEVEN getal met 3
@@ -33,10 +31,10 @@ const numbers = [2, 4, 5, 29, 38];
 
 console.log(numbers);
 
-for (let i = 0; i < numbers.length; i++){
-    if(numbers[i] % 2 == 0){
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] % 2 === 0) {
         numbers[i] *= 2;
-    } else{
+    } else {
         numbers[i] *= 3;
     }
 }
@@ -50,8 +48,6 @@ console.log(numbers);
 // console.log(numbers) geeft: [ 4, 12, 10, 87, 76 ];
 
 
-
-
 // ==========================================
 // Opdracht 3
 // Schrijf een script dat voor de maat van ieder vierkant in onderstaande array het volume uitrekent.
@@ -62,7 +58,7 @@ console.log(numbers);
 
 const squares = [30, 2, 8, 24, 11];
 
-for (let i = 0; i < squares.length; i++){
+for (let i = 0; i < squares.length; i++) {
     console.log("Het volume van " + squares[i] + " is " + Math.pow(squares[i], 3));
 }
 
